@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* !-- Top navigation bar -- */
+#header {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+#header>.inner {
+  height: 100px;
+  width: 1200px;
+  background-color: #CCCCCC;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+#header .name {
+  float: left;
+}
+
+#header .name p {
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+#header .name li {
+  list-style: none;
+}
+
+#header .nav {
+  float: right;
+}
+
+#header .nav>ul>li {
+  list-style: none;
+  float: left;
+  margin: 0 40px;
+}
+
+#header .nav li>a {
+  color: #2288F6;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "arial narrow";
+  text-decoration: none;
+}
+
+#header .nav li>a:hover {
+  color: #00FFFF;
+}
+@media (max-width: 768px) {
+	#header {
+	  height: 100px;
+	  margin-bottom: 3px;//修改过
+	}
+
+	#header>.inner {
+	  height: 100px;
+	  width: 1200px;
+	  background-color: #CCCCCC;
+	  margin: 0 auto;
+	  line-height: 100px;
+	}
+
+	#header .name {
+	  float: left;
+	}
+
+	#header .name p {
+	  font-size: 50px;
+	  font-weight: 700;
+	  margin-left: 40px;
+	}
+
+	#header .name li {
+	  list-style: none;
+	}
+
+	#header .nav {
+	  float: right;
+	}
+
+	#header .nav>ul>li {
+	  list-style: none;
+	  float: left;
+	  margin: 0 40px;
+	}
+
+	#header .nav li>a {
+	  color: #2288F6;
+	  font-size: 30px;
+	  font-weight: 700;
+	  font-family: "arial narrow";
+	  text-decoration: none;
+	}
+
+	#header .nav li>a:hover {
+	  color: #00FFFF;
+	}
+}
+
+/* !-- Top navigation bar ===end===-- */
+
+/* index */
+#content-1,
+#content-2,
+#content-3,
+#content-4 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#content-1 {
+  height: 130px;
+}
+
+#content-2 {
+  height: 130px;
+}
+
+#content-3 {
+  height: 210px;
+}
+
+#content-4 {
+  height: 130px;
+}
+
+section>h2 {
+  margin-left: 70px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "agency fb";
+}
+
+section .content {
+  width: 1000px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+/* index  ===end=== */
+
+/* mytrip */
+.title-1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.title-2 {
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "agency fb";
+}
+
+.box-1,
+.box-2 {
+  width: 1050px;
+  margin: 0 auto;
+  margin-left: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-3 {
+  width: 1050px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.box-3>.left,
+.box-3>.right {
+  height: 400px;
+  width: 500px;
+}
+
+.box-3>.left {
+  margin-left: 20px;
+  float: left;
+}
+
+.box-3>.right {
+  float: right;
+}
+
+
+.col {
+  flex: 1;
+}
+
+img {
+  width: 500px;
+  height: 370px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin: 2px;
+  background-color: #808080;
+  border-radius: 10%;
+}
+
+.cap {
+  text-align: center;
+  font-family: 'Calibri', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #461970;
+}
+
+.video {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+video {
+  width: 900px;
+}
+
+@media (max-width: 768px) {
+  .video {
+  width: 95%;
+  }
+}
+/* mytrip ===end===*/
+
+/* future */
+.box-4{
+  width: 1100px;
+  height: 300px;
+  box-shadow: 0px 3px 8px 2px #d3d3d3; 
+	border-radius: 12px 12px 12px 12px;
+  padding:3px 40px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.box-4>h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "agency fb";
+}
+
+.box-4 ul {
+  margin-left: 50px;
+}
+
+.box-4 li {
+  font-size: 20px;
+}
+/* future ===end===*/
+
+/* googlemap */
+.title-3 {
+  margin-top: 50px;
+  margin-left: 250px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "agency fb";
+}
+#map {
+  width: 800px;
+  height: 450px;
+  background-color: #ccc;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media only screen and (max-width: 876px) {
+  #map {
+    left: 0;
+    bottom: 50%;
+  }
+}
+/* googlemap ===end=== */
