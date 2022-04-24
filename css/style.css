@@ -216,8 +216,6 @@ section .content {
   color: #461970;
 }
 
-
-/* 轮播图 */
 .circle-list {
   list-style: none;
 }
@@ -288,17 +286,6 @@ section .content {
 .circle-list > .circle.active {
   background-color: #e74c3c;
 }
-/* 轮播图 ===end===*/
-
-
-
-
-
-
-
-
-
-
 
 .video {
   width: 1000px;
